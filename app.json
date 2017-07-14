@@ -8,8 +8,5 @@
     "websocket"
   ],
   "website": "http://github.com/stackriot/go-websocket-chat-demo",
-  "repository": "http://github.com/stackriot/go-websocket-chat-demo",
-  "postdeploy": [
-    "docker build -t dokku/redis github.com/luxifer/dokku-redis-dockerfiles"
-  ]
+  "repository": "http://github.com/stackriot/go-websocket-chat-demo"
 }

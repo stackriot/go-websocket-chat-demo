@@ -6,7 +6,7 @@ services:
     build: .
     environment:
       PORT: '5000'
-      REDIS_URL: 'redis://redis:6379'
+      REDIS_URL: 'redis://websocket-redis:b9082d4e59ea026bb0bc219948d1a1508b36a986bb6eea6db36c44e753237381@dokku-redis-websocket-redis:6379'
     depends_on:
       - redis
     ports:
