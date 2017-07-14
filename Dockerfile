@@ -15,3 +15,5 @@ RUN cd $HOME/.go/$GOVERSION; curl -s https://storage.googleapis.com/golang/go$GO
 RUN go install -v github.com/stackriot/go-websocket-chat-demo
 
 EXPOSE 5000
+
+CMD ["bash", "redis-cli"]
