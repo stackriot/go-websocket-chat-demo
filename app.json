@@ -9,7 +9,7 @@
   ],
   "website": "http://github.com/stackriot/go-websocket-chat-demo",
   "repository": "http://github.com/stackriot/go-websocket-chat-demo",
-  "addons": [
-    "heroku-redis"
+  "postdeploy": [
+    "docker build -t dokku/redis github.com/luxifer/dokku-redis-dockerfiles"
   ]
 }
