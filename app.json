@@ -7,6 +7,6 @@
     "go",
     "websocket"
   ],
-  "website": "http://github.com/stackriot/go-websocket-chat-demo",
+  "website": "http://go-websocket-chat-demo.npmstack.com",
   "repository": "http://github.com/stackriot/go-websocket-chat-demo"
 }
